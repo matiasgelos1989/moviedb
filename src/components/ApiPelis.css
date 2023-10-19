@@ -1,0 +1,48 @@
+.container-card {
+    display: flex; 
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.movie-card {
+    /* box-shadow: 1px 1px 1px 3px rgb(159, 148, 148); */
+    /* padding: 20px; */
+    border-radius: 10px 10px 0 0;
+    width:  180px;
+    /* height: 350px; */
+    margin: 10px 2px;
+    color:rgb(0, 0, 0);
+    background-color: rgba(49, 44, 44, 0.137);
+    user-select: none;
+    cursor: pointer;
+    font-size: 12px;
+    color:white;
+}
+
+/* .movie-card:hover {
+    
+    /* border-radius: 20px 20px 100% 100%; */
+/* } */
+
+.img-movie {
+    width: 180px;
+    height: 288px;
+    border-radius: 10px  10px 0px 0px;
+    transition: linear;
+    transition-duration: 0.3s;
+}
+
+.img-movie:hover {
+    box-shadow: 1px 1px 20px 3px rgba(255, 255, 255, 0.664);
+    /* width: 200px; */
+}
+
+.botonPeli {
+    flex:50%;
+    border:1px solid black;
+    border-radius:5px;
+}
+
+.botonPeli:hover {
+    background-color: rgba(73, 69, 69, 0.678);
+}
